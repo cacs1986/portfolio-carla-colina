@@ -3,7 +3,7 @@ const Contact = () => {
     <section id="contact" className="py-5 mb-5">
       <hr/>
       <div className="container mt-5">
-      <p className="cairo-h2 text-center">CONTÁCTO</p>
+      <p className="cairo-h2 text-center">CONTACTO</p>
       <div className="row text-center">
         <div className="col-md-4 mt-5 mb-5">
           <i className="fa-solid fa-envelope fa-2x"></i>

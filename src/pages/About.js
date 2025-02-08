@@ -29,7 +29,7 @@ const About = () => {
           Me apasiona el rol de educador, enseñar me permite ser guía y testigo de la construcción del conocimiento.
           Ser Docente es asumir el compromiso de formar, desarrollar  e impulsar  la <strong>creatividad</strong>, el <strong>
             pensamiento crítico</strong> y <strong>lógico</strong> de los estudiantes.
-          Mi objetivo es <strong>mantenerme en constante actualización</strong>, crear nuevas estrategias, descubrir herramientas y tegnologías
+          Mi objetivo es <strong>mantenerme en constante actualización</strong>, crear nuevas estrategias, descubrir herramientas y tecnologías
           innovadoras que me permitan desarrollar nuevas habilidades.
         </p>
       </div>

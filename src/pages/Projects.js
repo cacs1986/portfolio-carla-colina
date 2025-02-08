@@ -39,9 +39,10 @@ const Projects = () => {
               <div className="card-body">
                 <h5 className="card-title text-center text-primary fw-bold">Alarma de Seguridad con ARDUINO</h5>
                 <p className="card-text">
-                  La alarma se activa y desactiva introduciendo un codigo de seguridad de 4 digitos, el cual puede
+                La alarma se activa y desactiva introduciendo un código de seguridad de 4 dígitos, el cual puede
                   ser modificado si es requerido, cuenta con sensor de movimiento que al detectar disparara el sonido
                   de una "sirena".
+
                 </p>
               </div>
             </div>
@@ -53,9 +54,9 @@ const Projects = () => {
               <div className="card-body">
                 <h5 className="card-title text-center text-primary fw-bold">Auto control Bluetooth con ARDUINO</h5>
                 <p className="card-text">
-                  Autito controlado por Bluetooth, através de una aplicacion para dispositivos móviles. Cuenta
+                Autito controlado por Bluetooth, a través de una aplicación para dispositivos móviles. Cuenta
                   con la opción autonomía que le permite desplazarse sin guía gracias al sensor de ultrasonido que detectar 
-                  obstaculos.  
+                  obstáculos.  
                 </p>
               </div>
             </div>
