@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-carla-colina/static/css/main.2a07f6c4.css",
-    "main.js": "/portfolio-carla-colina/static/js/main.5b7502d3.js",
+    "main.css": "/portfolio-carla-colina/static/css/main.acd6a72c.css",
+    "main.js": "/portfolio-carla-colina/static/js/main.4640d3bd.js",
     "static/js/453.8ab44547.chunk.js": "/portfolio-carla-colina/static/js/453.8ab44547.chunk.js",
     "index.html": "/portfolio-carla-colina/index.html",
-    "main.2a07f6c4.css.map": "/portfolio-carla-colina/static/css/main.2a07f6c4.css.map",
-    "main.5b7502d3.js.map": "/portfolio-carla-colina/static/js/main.5b7502d3.js.map",
+    "main.acd6a72c.css.map": "/portfolio-carla-colina/static/css/main.acd6a72c.css.map",
+    "main.4640d3bd.js.map": "/portfolio-carla-colina/static/js/main.4640d3bd.js.map",
     "453.8ab44547.chunk.js.map": "/portfolio-carla-colina/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a07f6c4.css",
-    "static/js/main.5b7502d3.js"
+    "static/css/main.acd6a72c.css",
+    "static/js/main.4640d3bd.js"
   ]
 }
