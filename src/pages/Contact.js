@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="col-md-4 mt-5 mb-5">
           <i className="fa-solid fa-share-alt fa-2x"></i>
           <p>
-            <a href="https://www.linkedin.com/in/carla-colina-6001a5134" target="_blank">LinkedIn</a> 
+            <a href="https://www.linkedin.com/in/carla-colina" target="_blank">LinkedIn</a> 
           </p>
         </div>
       </div>

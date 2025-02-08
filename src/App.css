@@ -42,15 +42,20 @@
   background-color: #f8f9fa; 
   color: #000; 
 }
-@media (max-width: 576px) {
-  .accordion-button {
-    height: 60px;              
-    padding: 0 1rem;           
-    font-size: 1rem;           
-    display: flex;
-    align-items: center;       
-    justify-content: center;   
-    overflow: hidden;         
-  }
+
+
+.accordion {
+  width: 100%;  /* En móviles, usa todo el ancho */
+  max-width: 400px; /* Ajusta este valor según lo que necesites */
+  margin: auto; /* Centra el acordeón */
+}
+
+.accordion-button {
+  box-sizing: border-box;  /* Asegura que el padding y borde estén dentro del alto */
+  height: 50px;  /* Alto fijo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
 }
 

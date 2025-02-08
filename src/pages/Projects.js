@@ -7,7 +7,7 @@ const Projects = () => {
         <div className="row">
           <div className="col mt-5 mb-5 d-flex justify-content-center">
             <div className="card border-0" style={{ width: "23rem" }}>
-              <img src="/images/projects/casa-auto.png" className="card-img-top" alt="..." />
+              <img src= {`${process.env.PUBLIC_URL}/images/projects/casa-auto.png`} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center text-primary fw-bold">Casa automatizada con ARDUINO</h5>
                 <p className="card-text">
@@ -20,7 +20,7 @@ const Projects = () => {
           </div>
           <div className="col mt-5 mb-5 d-flex justify-content-center">
             <div className="card border-0" style={{ width: "23rem" }}>
-              <img src="/images/projects/animatronic.png" className="card-img-top" alt="..." />
+              <img src={`${process.env.PUBLIC_URL}/images/projects/animatronic.png`} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center text-primary fw-bold">Animatronic con ARDUINO</h5>
                 <p className="card-text">
@@ -35,7 +35,7 @@ const Projects = () => {
 
           <div className="col mt-5 mb-5 d-flex justify-content-center">
             <div className="card border-0" style={{ width: "23rem" }}>
-              <img src="/images/projects/alarma.png" className="card-img-top" alt="..." />
+              <img src={`${process.env.PUBLIC_URL}/images/projects/alarma.png`} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center text-primary fw-bold">Alarma de Seguridad con ARDUINO</h5>
                 <p className="card-text">
@@ -49,7 +49,7 @@ const Projects = () => {
 
           <div className="col mt-5 mb-5 d-flex justify-content-center">
             <div className="card border-0" style={{ width: "23rem" }}>
-              <img src="/images/projects/auto-controlBT.jpg" className="card-img-top" alt="..." />
+              <img src={`${process.env.PUBLIC_URL}/images/projects/auto-controlBT.jpg`} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title text-center text-primary fw-bold">Auto control Bluetooth con ARDUINO</h5>
                 <p className="card-text">

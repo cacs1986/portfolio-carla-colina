@@ -12,8 +12,11 @@ const Footer = () => {
                         <a href="mailto:cacs1986@gmail.com" className="text-white me-3">
                             <i className="fa-solid fa-envelope"></i> cacs1986@gmail.com
                         </a>
-                        <a href="https://linkedin.com/in/tu-perfil" target="_blank" className="text-white me-3">
+                        <a href="https://linkedin.com/in/carla-colina" target="_blank" className="text-white me-3">
                             <i className="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/cacs1986" target="_blank" class="text-white">
+                            <i class="fa-brands fa-github"></i>
                         </a>
                     </div>
                 </div>

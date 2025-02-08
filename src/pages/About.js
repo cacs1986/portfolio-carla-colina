@@ -7,7 +7,7 @@ const About = () => {
 
         <div className="col-md-4 text-center">
           <img
-            src="/images/profile.png"
+            src={`${process.env.PUBLIC_URL}/images/profile.png`}
             className="img-fluid"
             alt="Foto de Carla"
           />
@@ -38,7 +38,7 @@ const About = () => {
 
         <div className="col mb-3">
 
-          <div className="accordion">
+          <div className="accordion" style={{ maxHeight: "400px" }}>
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button className="accordion-button text-white bg-primary"
@@ -64,7 +64,7 @@ const About = () => {
         </div>
 
         <div className="col mb-3">
-        <div className="accordion">
+        <div className="accordion" style={{ maxHeight: "400px" }}>
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button className="accordion-button text-white bg-primary"
@@ -98,7 +98,7 @@ const About = () => {
         </div>
 
         <div className="col">
-        <div className="accordion">
+        <div className="accordion" style={{ maxHeight: "400px" }}>
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button className="accordion-button text-white bg-primary"
@@ -120,7 +120,7 @@ const About = () => {
         </div>
 
         <div className="col">
-        <div className="accordion">
+        <div className="accordion"style={{ maxHeight: "400px" }}>
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button className="accordion-button text-white bg-primary"
