@@ -5,7 +5,7 @@ const Footer = () => {
             <div className="container ">
                 <div className="row align-items-center">
                     <div className="col-md-6 text-center text-md-start">
-                        <p className="mb-0">&copy; 2025 Mi Portfolio. Todos los derechos reservados.</p>
+                        <p className="mb-0">&copy; 2025 Carla Colina Sosa. Todos los derechos reservados.</p>
                     </div>
 
                     <div className="col-md-6 text-center text-md-end">
