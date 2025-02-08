@@ -7,7 +7,7 @@ const About = () => {
 
         <div className="col-md-4 text-center">
           <img
-            src={`${process.env.PUBLIC_URL}/images/profile.png`}
+            src="images/profile.png"
             className="img-fluid"
             alt="Foto de Carla"
           />
