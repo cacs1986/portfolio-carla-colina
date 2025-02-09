@@ -22,7 +22,7 @@ const Projects = () => {
             <div className="card border-0" style={{ width: "23rem" }}>
               <img src={`${process.env.PUBLIC_URL}/images/projects/animatronic.png`} className="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title text-center text-primary fw-bold">Animatronic con ARDUINO</h5>
+                <h5 className="card-title text-center text-primary fw-bold">Animatrónico con ARDUINO</h5>
                 <p className="card-text">
                   Mr. CupCake de FNAF, el movimiento de ojos y boca son controlados con Joystick Analógico.
                 </p>

@@ -59,3 +59,18 @@
   padding: 0 20px;
 }
 
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out;
+  cursor: pointer; /* Asegura que el cursor sea una mano al pasar por encima */
+}
+
+.nav-link:hover {
+  color: #050505 !important; /* Fuerza el cambio de color al pasar el mouse */
+}
+.nav-link:hover::after {
+  width: 100%;
+  left: 0;
+}
