@@ -4,7 +4,7 @@ import "../App.css";
 
 const Nav = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-primary sticky-top border-0" data-bs-theme="dark">
+        <nav className="navbar navbar-expand-lg bg-primary  border-0" data-bs-theme="dark">
             <Link className="navbar-brand pacifico-regular ms-3 text-white" to="about" smooth={true} duration={500} offset={-70}>Carla Colina Sosa</Link>
             <div className="container">
                 <button
