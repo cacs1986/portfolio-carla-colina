@@ -1,7 +1,7 @@
 import React from 'react';
 const Footer = () => {
     return (
-        <footer className="bg-primary text-white py-4 mt-5">
+        <footer className="text-white py-4 mt-5" style={{ backgroundColor: '#3CB371' }}>
             <div className="container ">
                 <div className="row align-items-center">
                     <div className="col-md-6 text-center text-md-start">
@@ -9,15 +9,16 @@ const Footer = () => {
                     </div>
 
                     <div className="col-md-6 text-center text-md-end">
+                        <i className="fa-solid fa-envelope"></i>&nbsp;
                         <a href="mailto:cacs1986@gmail.com" className="text-white me-3">
-                            <i className="fa-solid fa-envelope"></i> cacs1986@gmail.com
-                        </a>
-                        <a href="https://linkedin.com/in/carla-colina" target="_blank" className="text-white me-3">
+                            cacs1986@gmail.com
+                        </a>&nbsp;&nbsp;
+                        <a href="https://linkedin.com/in/carla-colina" target="_blank" rel="noreferrer" className="text-white me-3">
                             <i className="fa-brands fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/cacs1986" target="_blank" class="text-white">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
+                        </a>&nbsp;&nbsp;
+                        <a href="https://github.com/cacs1986" target="_blank" rel="noreferrer" className="text-white">
+                            <i className="fa-brands fa-github"></i>
+                        </a>&nbsp;
                     </div>
                 </div>
             </div>

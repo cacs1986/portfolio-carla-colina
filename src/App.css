@@ -1,76 +1,116 @@
-.cairo-h1 {
-  font-family: "Cairo Play", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;/*200 a 1000*/
-  font-style: normal;
-  font-variation-settings:"slnt" 0;
-  font-size: clamp(2rem, 5vw, 3rem); 
-}
-
-.cairo-h2 {
-  font-family: "Cairo Play", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;/*200 a 1000*/
-  font-style: normal;
-  font-variation-settings:"slnt" 0;
-  font-size: clamp(1.5rem, 3vw, 2rem); 
-}
-
-.cairo-h3 {
-  font-family: "Cairo Play", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;/*200 a 1000*/
-  font-style: normal;
-  font-variation-settings:"slnt" 0;
-  font-size: clamp(1.5rem, 2.5vw, 2rem); 
-}
-
-.pacifico-regular {
-  font-family: "Pacifico", serif;
+.barriecito{
+  font-family: "Barriecito", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
- 
- .accordion-button:not(.collapsed) {
-  background-color: #007bff; 
-  color: #ffffff; 
-  transition: background-color 0.3s, color 0.3s; 
+.navbar-toggler-icon {
+  background-color: #ffffff; /* Cambia a cualquier color que desees */
 }
-
-.accordion-button.collapsed {
-  background-color: #f8f9fa; 
-  color: #000; 
-}
-
-
-.accordion {
-  width: 100%;  /* En móviles, usa todo el ancho */
-  max-width: 400px; /* Ajusta este valor según lo que necesites */
-  margin: auto; /* Centra el acordeón */
-}
-
-.accordion-button {
-  box-sizing: border-box;  /* Asegura que el padding y borde estén dentro del alto */
-  height: 50px;  /* Alto fijo */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px;
-}
-
 .nav-link {
   position: relative;
   text-decoration: none;
-  color: white;
   transition: color 0.3s ease-in-out;
   cursor: pointer; /* Asegura que el cursor sea una mano al pasar por encima */
+  color: #ffffff;
 }
 
 .nav-link:hover {
-  color: #050505 !important; /* Fuerza el cambio de color al pasar el mouse */
+  color: #6a0855 !important; /* Fuerza el cambio de color al pasar el mouse */
 }
 .nav-link:hover::after {
   width: 100%;
   left: 0;
+}
+
+/* Imagen */
+.image-container { 
+  background-size: contain; /* Asegura que no se recorte */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-image: url('../public/images/carlaColina1.png'); /* Imagen inicial */
+  transition: background-image 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh; 
+}
+
+/* Efecto hover: cambia la imagen */
+.image-container.hover {
+  background-image: url('../public/images/carlaColina2.png'); /* Imagen al pasar el mouse */
+}
+
+
+/* Sección de texto */
+.text-content {
+  text-align: justify;
+}
+
+.container-projects {
+  display: flex;
+  gap: 15px; /* Espacio entre tarjetas */
+  justify-content: center; /* Centra las tarjetas horizontalmente */
+  align-items: center; /* Centra las tarjetas verticalmente */
+  max-width: 100%; /* Limita el ancho al tamaño del contenedor padre */
+  flex-wrap: wrap;
+}
+
+.card img {
+  max-width: 200px; /* Ajusta el tamaño de las imágenes */
+  height: auto;
+  transition: transform 0.5s ease; /* Transición suave para el escalado */
+}
+
+.card {
+  overflow: visible; /* Permite que la imagen se vea completamente al hacer hover */
+  transition: 0.5s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: scale(1.2); /* Aumenta el tamaño de la imagen al pasar el mouse */
+  z-index: 1; /* Asegura que la imagen aumentada esté encima de las demás */
+}
+
+.container-projects:hover > :not(:hover) {
+  opacity: 0.3; /* Reduce la opacidad de las tarjetas que no están siendo "hovered" */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  color: white;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1; /* Hace visible el texto al pasar el mouse */
+}
+
+.text {
+  font-size: 20px; /* Tamaño del texto */
+  text-align: center;
+}
+
+.habilidades{
+  background-image: url('../public/images/puntos.png');
+  background-size: contain; /* Asegura que no se recorte */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  height: 40vh;
+  background-position: right center; /* Alinea a la derecha y centrado verticalmente */
 }

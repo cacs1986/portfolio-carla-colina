@@ -4,14 +4,14 @@ const Contents = () => {
   return (
     <section id="contents">
       <div className="row m-5">
-        <p className=" mt-5 cairo-h2 text-center">CONTENIDOS Y METODOLOGÍAS</p>
-        <p className='lead'>
+        <h2 className=" mt-5 barriecito">Contenidos y Metodologías</h2>
+        <p className='lead'>S
           Como docente de escuela Técnica no solo se trata de transmitir conocimientos, también es actúar
           como guía, facilitador y mentor para que los estudiantes desarrollen habilidades técnicas y competencias 
           necesarias en el mundo digital.
         </p>
-        <h4 className='cairo-h3 mt-3'>
-          <i className="fa-solid fa-angles-right me-2 text-primary"></i>
+        <h4 className='barriecito mt-3'>
+          <i className="fa-solid fa-angles-right me-2 text-success"></i>&nbsp;&nbsp;
           Contenidos
         </h4>
         
@@ -19,14 +19,16 @@ const Contents = () => {
           <div className="row mt-5 mb-5">
 
             <div className="col">
-              <p><i className="fa-solid fa-angles-right me-2"></i><strong className='text-primary'>Programación Estructurada y Lógica Computacional</strong></p>
+              <p><i className="fa-solid fa-angles-right me-2"></i>&nbsp;&nbsp;
+              <strong className='text-success'>Programación Estructurada y Lógica Computacional</strong></p>
               <li>Diagramación lógica y resolución de problemas.</li>
               <li>Estructuras de control, vectores, matrices y funciones.</li>
               <li>Lenguajes: C++ y C# en consola, enfocados en lógica y estructuras de datos.</li>
             </div>
 
             <div className="col">
-            <p><i className="fa-solid fa-angles-right me-2"></i><strong className='text-primary'>Sistemas Operativos</strong></p>
+            <p><i className="fa-solid fa-angles-right me-2"></i>&nbsp;&nbsp;
+            <strong className='text-success'>Sistemas Operativos</strong></p>
             <li>Conceptos Básicos</li>
             <li>Gestión de Procesos</li>
             <li>Gestion de Memoria</li>
@@ -38,13 +40,15 @@ const Contents = () => {
           <div className="row mt-5">
 
             <div className="col">
-            <p><i className="fa-solid fa-angles-right me-2"></i><strong className='text-primary'>Herramientas Ofimáticas</strong></p>
+            <p><i className="fa-solid fa-angles-right me-2"></i>&nbsp;&nbsp;
+            <strong className='text-success'>Herramientas Ofimáticas</strong></p>
               <li>Manejo de Word, Excel y PowerPoint.</li>
               <li>Presentación de informes monografías, etc.</li>
             </div>
 
             <div className="col">
-            <p><i className="fa-solid fa-angles-right me-2"></i><strong className='text-primary'>Desarrollo Web</strong></p>
+            <p><i className="fa-solid fa-angles-right me-2"></i>&nbsp;&nbsp;
+            <strong className='text-success'>Desarrollo Web</strong></p>
             <li>JavaScript y React.</li>
             <li>Creación de interfaces interactivas y dinámicas.</li>
             </div>
@@ -54,14 +58,15 @@ const Contents = () => {
           <div className="row mt-5 mb-5">
 
             <div className="col">
-            <p><i className="fa-solid fa-angles-right me-2"></i><strong className='text-primary'>Robótica</strong></p>
+            <p><i className="fa-solid fa-angles-right me-2"></i>&nbsp;&nbsp;
+            <strong className='text-success'>Robótica</strong></p>
               <li>Introducción a Arduino y sensores.</li>
               <li>Programación de hardware para proyectos prácticos (automatización y robótica educativa).</li>
             </div>
 
             <div className="col">
-            <p><i className="fa-solid fa-angles-right me-2"></i><strong className='text-primary'>Talleres de Iniciación a la Programación en Primaria</strong></p>
-            <li>Scratch como herramienta de programación visual</li>
+            <p><i className="fa-solid fa-angles-right me-2"></i><strong className='text-success'>Talleres de Iniciación a la Programación en Primaria</strong></p>
+            <li>Scratch como herramienta de programación visual</li>&nbsp;&nbsp;
             <li>Metodología <strong>STEAM</strong></li>
             </div>
 
@@ -69,8 +74,8 @@ const Contents = () => {
 
         </div>
         <hr/>
-        <h4 className='cairo-h3 mt-3'>
-          <i className="fa-solid fa-angles-right me-2 text-primary"></i>
+        <h4 className='barriecito mt-3'>
+          <i className="fa-solid fa-angles-right me-2 text-info"></i>&nbsp;&nbsp;
           Metodologías
         </h4>
 
@@ -78,8 +83,8 @@ const Contents = () => {
           <div className="row mt-5 mb-5">
             <div className="col">
               <p>
-                <i className="fa-solid fa-angles-right me-2"></i>
-                <strong className='text-primary'>Aprendizaje Basado en Proyectos (ABP)</strong>
+                <i className="fa-solid fa-angles-right me-2"></i>&nbsp;&nbsp;
+                <strong className='text-info'>Aprendizaje Basado en Proyectos (ABP)</strong>
               </p>
               <p>
                 Esta metodología permite a los estudiantes adquirir conocimientos y competencias mediante 
@@ -90,8 +95,8 @@ const Contents = () => {
 
             <div className="col">
               <p>
-                <i className="fa-solid fa-angles-right me-2"></i>
-                <strong className='text-primary'>Aprendizaje Cooperativo</strong>
+                <i className="fa-solid fa-angles-right me-2"></i>&nbsp;&nbsp;
+                <strong className='text-info'>Aprendizaje Cooperativo</strong>
               </p>
               <p>
               Consiste en agrupar a los estudiantes para que trabajen juntos en la resolución de problemas, 
@@ -104,8 +109,8 @@ const Contents = () => {
           <div className="row mt-5">
             <div className="col">
               <p>
-                <i className="fa-solid fa-angles-right me-2"></i>
-                <strong className='text-primary'>Gamificación</strong>
+                <i className="fa-solid fa-angles-right me-2"></i>&nbsp;&nbsp;
+                <strong className='text-info'>Gamificación</strong>
               </p>
               <p>
               Implica la integración de dinámicas de juego en entornos educativos para potenciar la motivación, 
@@ -115,8 +120,8 @@ const Contents = () => {
 
             <div className="col">
               <p>
-                <i className="fa-solid fa-angles-right me-2"></i>
-                <strong className='text-primary'>Aprendizaje basado en el conocimiento</strong>
+                <i className="fa-solid fa-angles-right me-2"></i>&nbsp;&nbsp;
+                <strong className='text-info'>Aprendizaje basado en el conocimiento</strong>
               </p>
               <p>
                 Este método permite desarrollar el pensamiento más allá de la memorización, a la vez que 
